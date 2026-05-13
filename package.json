@@ -1,0 +1,30 @@
+{
+  "name": "(module-7)-express.js-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehedihasanrafi205/Module-7-Express.js-Server-Architecture-Database-Integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mehedihasanrafi205/Module-7-Express.js-Server-Architecture-Database-Integration/issues"
+  },
+  "homepage": "https://github.com/mehedihasanrafi205/Module-7-Express.js-Server-Architecture-Database-Integration#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
