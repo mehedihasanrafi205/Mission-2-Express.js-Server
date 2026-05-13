@@ -49,16 +49,28 @@ app.get("/user", (req: Request, res: Response) => {
 app.post("/", async (req: Request, res: Response) => {
   // console.log(req.body);
 
-  const { id, name, price, description } = req.body;
-  res.status(201).json({
-    message: "Created",
-    data: {
-      id,
-      name,
-      description,
-      price,
-    },
-  });
+  const { name, email, password, age } = req.body;
+
+  try {
+    const result = await pool.query(
+      `
+    INSERT INTO users(name, email, password, age) VALUES ($1,$2,$3,$4) RETURNING *
+    `,
+      [name, email, password, age],
+    );
+
+    // console.log(result);
+
+    res.status(201).json({
+      message: "User Created Successfully",
+      data: result.rows[0],
+    });
+  } catch (error: any) {
+    res.status(500).json({
+      message: error.message,
+      error: error,
+    });
+  }
 });
 
 app.listen(port, () => {
