@@ -21,6 +21,7 @@
   "homepage": "https://github.com/mehedihasanrafi205/Module-7-Express.js-Server-Architecture-Database-Integration#readme",
   "devDependencies": {
     "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/pg": "^8.20.0",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3"
@@ -30,6 +31,7 @@
     "dotenv": "^17.4.2",
     "env": "^0.0.2",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "pg": "^8.20.0"
   }
 }
