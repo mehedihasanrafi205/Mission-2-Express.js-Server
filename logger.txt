@@ -4,3 +4,55 @@ Method -> GET - Time -> 1779100695319 - URL -> /api/users
 Method -> GET - Time -> 1779100701787 - URL -> /
 
 Method -> GET - Time -> 1779100713898 - URL -> /api/profile
+
+Method -> GET - Time -> 1779106659171 - URL -> /api/users
+
+Method -> GET - Time -> 1779106663198 - URL -> /favicon.ico
+
+Method -> GET - Time -> 1779106667419 - URL -> /api/users/1
+
+Method -> GET - Time -> 1779106667960 - URL -> /api/users/13
+
+Method -> GET - Time -> 1779106671435 - URL -> /api/users/1
+
+Method -> GET - Time -> 1779106680041 - URL -> /api/users/1
+
+Method -> GET - Time -> 1779106754721 - URL -> /api/users
+
+Method -> GET - Time -> 1779106831482 - URL -> /api/users
+
+Method -> GET - Time -> 1779106850744 - URL -> /api/users
+
+Method -> GET - Time -> 1779106873326 - URL -> /api/users
+
+Method -> GET - Time -> 1779106879275 - URL -> /api/users
+
+Method -> GET - Time -> 1779106881712 - URL -> /api/users
+
+Method -> GET - Time -> 1779107040751 - URL -> /api/users
+
+Method -> GET - Time -> 1779107060627 - URL -> /api/users
+
+Method -> GET - Time -> 1779107069165 - URL -> /api/users
+
+Method -> GET - Time -> 1779107096131 - URL -> /api/users
+
+Method -> GET - Time -> 1779107119195 - URL -> /api/users
+
+Method -> GET - Time -> 1779107131916 - URL -> /api/users
+
+Method -> POST - Time -> 1779107192796 - URL -> /api/auth/login
+
+Method -> GET - Time -> 1779107286732 - URL -> /api/users
+
+Method -> GET - Time -> 1779107304954 - URL -> /api/users
+
+Method -> GET - Time -> 1779107318202 - URL -> /api/users
+
+Method -> GET - Time -> 1779107425253 - URL -> /api/users
+
+Method -> GET - Time -> 1779107438085 - URL -> /api/users
+
+Method -> GET - Time -> 1779107459118 - URL -> /api/users
+
+Method -> GET - Time -> 1779107464599 - URL -> /api/users
